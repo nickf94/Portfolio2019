@@ -1,0 +1,62 @@
+<html lang="en">
+<head> 
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="A base for my portfolio"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Nick's Website</title>
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Home.scss">
+<script src="https://kit.fontawesome.com/6e780ffe51.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+function scrollWin() {
+  window.scrollTo(0, 1000);
+  window.scroll({
+      behaviour: 'smooth'
+  })
+}
+
+document.getElementById("welcomebutton").addEventListener("click", function(e){
+    alert('it works')
+});
+</script>
+</head>
+<body>
+<div class="Parallax">
+<div class="a">
+    <strong>Welcome to my webpage.</strong></p>
+    <p id='welcomebutton'>
+<button class='button' id="welcomebutton" onclick="scrollWin()">Click Me to continue</button>
+</div>
+<div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Nick Fletcher
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+            <a href="Home.html">Home</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="My_Story.html">My Story</a>
+            <a href="Blog.html">Blog Posts</a>
+            <a href="Contact.html">Contact Me</a>
+        </div>
+      </div>
+</div>
+</body>
+    <footer>&copy; Copyright 2019, Made by Nick Fletcher
+        <a href="http://user72363.psee.ly/L5DEP"><i class="fab fa-twitter-square"></i></a>
+        <a href="http://user72363.psee.ly/LPCU7"><i class="fab fa-instagram"></i></a>
+    </footer>
+</html>
