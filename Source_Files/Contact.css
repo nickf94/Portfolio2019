@@ -2,17 +2,26 @@ body {
 	color: white;
     font-family: 'Indie Flower', cursive;
     font-size: 59px;
-    background: url(Media/IMG_1005.jpg);
+    background: url(Media/IMG_1007.jpeg);
     height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
 .nav {
   height: 50px;
   width: 100%;
+  background-color: #4d4d4d;
   position: relative;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .nav > .nav-header {
@@ -20,9 +29,8 @@ body {
 }
 
 .nav > .nav-header > .nav-title {
-  padding-top: 0px;
   display: inline-block;
-  font-size: 29px;
+  font-size: 22px;
   color: #fff;
   padding: 10px 10px 10px 10px;
 }
@@ -34,7 +42,7 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 32px;
+  font-size: 18px;
 }
 
 .nav > .nav-links > a {
@@ -45,8 +53,7 @@ body {
 }
 
 .nav > .nav-links > a:hover {
-  background-color: LightSeaGreen;
-  opacity: .25;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .nav > #nav-check {
@@ -110,7 +117,7 @@ div.a {
 #form-main{
 	width:100%;
 	float:left;
-	padding-top:0px;
+	padding-top:300px;
 }
 
 #form-div {
@@ -125,7 +132,7 @@ div.a {
 	position: absolute;
   margin-top:30px;
 	margin-left: -260px;
-  -moz-border-radius: 7px;
+  border-radius: 7px;
   -webkit-border-radius: 7px;
 }
 

@@ -29,12 +29,20 @@ body {
   transform: translateY(4px);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
 
 .nav {
-  padding-top: 650px;
   height: 50px;
   width: 100%;
+  background-color: #4d4d4d;
   position: relative;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .nav > .nav-header {
@@ -43,8 +51,8 @@ body {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 29px;
-  color: white;
+  font-size: 22px;
+  color: #fff;
   padding: 10px 10px 10px 10px;
 }
 
@@ -55,19 +63,18 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 32px;
+  font-size: 18px;
 }
 
 .nav > .nav-links > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: white;
+  color: #efefef;
 }
 
 .nav > .nav-links > a:hover {
-  background-color: LightSeaGreen;
-  opacity: .25;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .nav > #nav-check {
@@ -120,7 +127,7 @@ body {
   }
 }
 div.a {
-    color: white;
+    color: Black;
     padding-top: 70px;
     text-align: center;
     font-size: 90px;
@@ -128,7 +135,7 @@ div.a {
 
 /*Following code is used to create a parallax scrolling background*/
 .parallax {
-    background: url(Media/IMG_1005.jpg);
+    background: url(Media/IMG_1007.jpeg);
     height: 2010px;
     background-attachment: fixed;
     background-position: center;
