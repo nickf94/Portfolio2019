@@ -2,7 +2,7 @@ body {
 	color: white;
     font-family: 'Indie Flower', cursive;
     font-size: 59px;
-    background: url(Media/IMG_1007.jpeg);
+    background: url(/Media/IMG_1007.jpeg);
     height: 1000px;
     background-attachment: fixed;
     background-position: center;

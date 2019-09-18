@@ -1,5 +1,7 @@
 Portfoilio Assessment 2019
 
+All Photos were taken by me (Nick Fletcher) background photo was used from Pexels.com
+
 How I came up with my idea to design my portfolio like I have came down to just wanting something that was different but unique, something that would stand out from anyone else.
 
 Design Process
@@ -23,4 +25,6 @@ Some problems i had with my portfolio were:
 : The navbar was being stupid
 : My color scheme wasn't matching
 
-After the "My Story" page i made a contact page and then a contact form. I decided to go with one that was kind of transparent so that you could still see the background but also responsive at the same time, so i went exploring the world wide web for ways to do a contact form and make it responsive
+After the "My Story" page i made a contact page and then a contact form. I decided to go with one that was kind of transparent so that you could still see the background but also responsive at the same time, so i went exploring the world wide web for ways to do a contact form and make it responsive.
+
+With my navbar I needed to make it more respnsive so i went with a navbar that changes to a hamburger style button when on a mobile device, it was pretty cool but then i decided to change it up a bit so i made some changes but ran into trouble where it was spaced weird on mobile devices. I found out that i needed to add some of the things i changed back into the code and it started working. Then i found out that the scroll button wasn't working the way i wanted it to work on desktop but on mobile it was which started to become really annoying. I started off by having the button scroll to a certain point on my window but whenever i changed from mobile to desktop it stopped working so i asked the teacher and he said that i should be using a queryselector in javascript and get it to target my nav class and set it to scroll down to the offset of the top of the navbar.

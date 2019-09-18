@@ -2,19 +2,19 @@
 <head> 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="A base for my portfolio"/>
+    <meta name="description" content="My portfolio"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <title>Nick's Website</title>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="Home.scss">
+<link rel="stylesheet" href="/Source_Files/Home.scss">
 <script src="https://kit.fontawesome.com/6e780ffe51.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 function scrollWin() {
-  window.scrollTo(0, 700);
   window.scroll({
-      behaviour: 'smooth'
+      behaviour: 'smooth',
+      top: document.querySelector('.nav').offsetTop
   })
 }
 
