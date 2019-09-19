@@ -1,6 +1,6 @@
 body {
-    color: #ffffff;
-    font-family: 'Indie Flower', cursive;
+    color: hotpink;
+    font-family: 'Ruge Boogie', cursive;
     font-size: 30px;
     
 }
@@ -16,7 +16,7 @@ body {
   width: 100%;
   background-color: #4d4d4d;
   position: relative;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Amatic SC', cursive;
 }
 
 .nav > .nav-header {
@@ -26,7 +26,7 @@ body {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color: lime;
   padding: 10px 10px 10px 10px;
 }
 
@@ -44,7 +44,7 @@ body {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: #50b6bb;
 }
 
 .nav > .nav-links > a:hover {
@@ -105,7 +105,7 @@ div.a {
 }
 /*Following code is used to create a parallax scrolling background*/
 .parallax {
-    background: url(/Media/IMG_1007.jpeg);
+    background: url(/Media/IMG_retro.jpeg);
     height: auto;
     background-attachment: fixed;
     background-position: center;
