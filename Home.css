@@ -135,7 +135,7 @@ div.a {
 
 /*Following code is used to create a parallax scrolling background*/
 .parallax {
-    background: url(Media/IMG_1008.jpg);
+    background: url(Media/IMG_1007.jpg);
     height: 2000px;
     background-attachment: fixed;
     background-position: center;
