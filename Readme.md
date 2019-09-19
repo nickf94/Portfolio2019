@@ -1,6 +1,6 @@
 Portfoilio Assessment 2019
 
-https://nickf94.github.io/Portfolio2019/Source_Files/Home.html
+https://nickf94.github.io/Portfolio2019/Home.html
 
 All Photos were taken by me (Nick Fletcher) background photo was used from Pexels.com
 
