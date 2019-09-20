@@ -125,7 +125,7 @@ div.b {
 .column img{
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+  max-width: 100%;
 }
 .column2 {
     flex: 25%;
