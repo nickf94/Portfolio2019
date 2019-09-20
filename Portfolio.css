@@ -143,8 +143,8 @@ div.b {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
   .column {
-    flex: 100%;
-    max-width: 100%;
+    flex: 250%;
+    max-width: 50%;
   }
 }
 
