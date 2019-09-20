@@ -60,7 +60,7 @@ body {
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -260,7 +260,7 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 900px) {
 	#form-div{
 		left: 3%;
 		margin-right: 3%;
