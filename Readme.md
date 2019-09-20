@@ -16,7 +16,7 @@ I changed my mind about what i wanted it to look like a few times during the des
 
 I first started with my navbar up the top and have it glow but as i went on i found myself not liking that idea so i scrapped it for just plain text but still have it so that when you hovered your mouse over the link it would light up. Next i started to add my pages, I decided to use my portfolio to show off my photography skills as well as the skills i had learnt from the html and css lessons. I ran into problems with the images being too big for a mobile phone so i went with a grid to make them all fit onto a mobile screen.
 
-![Github Logo](Docs/IMG_1007.jpg) <--- Background image provided by Pexels
+![Github Logo](Docs/IMG_1007.jpg)  Background image provided by Pexels
 
 ```html
 <div class="row">
