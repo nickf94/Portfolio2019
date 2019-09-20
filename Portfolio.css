@@ -108,6 +108,11 @@ div.b {
     background-color: black;
 }
 
+*{
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
