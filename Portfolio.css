@@ -108,40 +108,44 @@ div.b {
     background-color: black;
 }
 
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* create 4 seperate columns that sit next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px
 }
 
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-.span_1_of_1 {
-	width: 100%;
+.column2 {
+    flex: 25%;
+  max-width: 25%;
+  padding: 0 4px
 }
 
-/*  GO FULL WIDTH AT LESS THAN 900 PIXELS */
-
-@media only screen and (max-width: 900px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+.column {
+  flex: 50%;
+  max-width: 50%
 }
-
-@media only screen and (max-width: 900px) {
-	.span_1_of_1 { width: 100%; }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /*Following code is used to create a parallax scrolling background*/
